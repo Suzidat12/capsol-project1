@@ -16,21 +16,21 @@ function SideHustlePage() {
       <div className="top-bar">
         <div className="bar-left">
           <div className="menu">
-            <a href="#">About</a>
-            <a href="#">Store</a>
+            <button href="#">About</button>
+            <button href="#">Store</button>
           </div>
         </div>
         <div className="bar-right">
           <div className="menu">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
+            <button href="#">Gmail</button>
+            <button href="#">Images</button>
           </div>
-          <a href="#" className="app-toggle">
+          <button href="#" className="app-toggle">
             <i className="fa fa-ellipsis-h"></i>
-          </a>
-          <a href="#" className="profile-trigger">
+          </button>
+          <button href="#" className="profile-trigger">
             <img src={profile} />
-          </a>
+          </button>
         </div>
       </div>
       <div className="content">
@@ -51,8 +51,8 @@ function SideHustlePage() {
             </div>
           </div>
           <div className="search-buttons">
-            <a href="#">Google Search</a>
-            <a href="#">I'm Feeling Lucky</a>
+            <button href="#">Google Search</button>
+            <button href="#">I'm Feeling Lucky</button>
           </div>
 
 
@@ -61,16 +61,16 @@ function SideHustlePage() {
       <div className="bottom-bar">
         <div className="bar-left">
           <div class="menu">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search Works</a>
+            <button href="#">Advertising</button>
+            <button href="#">Business</button>
+            <button href="#">How Search Works</button>
           </div>
         </div>
         <div className="bar-right">
           <div className="menu">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+            <button href="#">Privacy</button>
+            <button href="#">Terms</button>
+            <button href="#">Settings</button>
           </div>
         </div>
       </div>
